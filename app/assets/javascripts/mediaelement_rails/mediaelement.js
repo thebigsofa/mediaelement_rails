@@ -543,6 +543,7 @@ mejs.PluginMediaElement.prototype = {
 			this.paused = false;
 		}
 	},
+	/*
 	load: function () {
 		if (this.pluginApi != null) {
 			if (this.pluginType == 'youtube' || this.pluginType == 'vimeo') {
@@ -552,7 +553,7 @@ mejs.PluginMediaElement.prototype = {
 			
 			this.paused = false;
 		}
-	},
+	},*/
 	pause: function () {
 		if (this.pluginApi != null) {
 			if (this.pluginType == 'youtube' || this.pluginType == 'vimeo') {
