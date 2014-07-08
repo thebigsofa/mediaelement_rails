@@ -1101,11 +1101,13 @@ if (typeof jQuery != 'undefined') {
 			} catch (e) {}
 		},
 		load: function() {
+			/*
 			if (!this.isLoaded) {
-				this.media.load();
+				//FIXME: This is breaking IE8
+				//this.media.load();
 			}
 
-			this.isLoaded = true;
+			this.isLoaded = true; */
 		},
 		setMuted: function(muted) {
 			this.media.setMuted(muted);
